@@ -17,8 +17,8 @@ let numero1 = prompt('digite o primeiro numero: ');
 let numero2 = prompt('digite o segundo numero: ');
 
 let resultado1 = numero1 > numero2
-let resultadoigual = numero1 === numero2
-let resultadodivisao = numero1/numero2
-let resultadodivisao2 = numero2/numero1
+let resultadoigual = numero1 == numero2
+let resultadodivisao = numero1===numero2
+let resultadodivisao2 = numero2===numero1
 
 console.log(resultado1, resultadoigual, resultadodivisao, resultadodivisao2);
